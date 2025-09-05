@@ -1,0 +1,81 @@
+:root {
+  --primary: #2563eb;
+  --muted: #6b7280;
+}
+body {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  color: #0f172a;
+  background: #fff;
+}
+.logo-img {
+    border-radius: 8px;
+    object-fit: cover; 
+}
+.brand-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1;
+}
+.brand-sub {
+    color: var(--muted);
+    font-size: 0.75rem;
+    margin-top: -2px;
+}
+#mainNav {
+    transition: padding .25s ease,box-shadow .25s ease;
+    padding: 1rem 0;
+    position: relative;
+}
+#mainNav.scrolled {
+    padding: .4rem 0;
+    box-shadow: 0 6px 20px rgba(14,20,30,0.06);
+}
+#bg-container {
+  background: url("https://i.postimg.cc/NFLDNvRX/home-bg-image.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #0b0606;
+  font-family: Playfair Display;
+}
+.nav-item {
+    font-family: Poppins;
+}
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* space below text */
+  width: 0;
+  height: 2px;
+  background-color: var(--primary); /* same as your theme color */
+  transition: width 0.3s ease-in-out;
+}
+.nav-link:hover::after {
+  width: 100%;  /* expands underline on hover */
+}
+#about h2 {
+  font-size: 2rem;
+  color: #0f172a;
+}
+
+#about p {
+  line-height: 1.7;
+}
+.about.text {
+    font-family: Playfair Display;
+}
+.founder-image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
