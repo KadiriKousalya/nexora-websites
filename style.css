@@ -3,7 +3,6 @@
   --muted: #6b7280;
   font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial;
 }
-
 body {
   font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial;
   color: #0f172a;
@@ -147,16 +146,13 @@ body {
 .contact-section {
   background-color: #f9f9f9;
 }
-
 .contact-info p {
   margin-bottom: 10px;
   font-size: 15px;
 }
-
 .contact-form label {
   font-weight: 500;
 }
-
 .contact-form .btn {
   border-radius: 30px;
   font-weight: 600;
@@ -164,49 +160,36 @@ body {
 .footer {
   background: #0d1b2a;
 }
-
 .footer h5 {
   font-weight: 600;
   margin-bottom: 15px;
 }
-
 .footer-link {
   color: #ccc;
   text-decoration: none;
 }
-
 .footer-link:hover {
   color: #fff;
 }
-
 .social-icons a {
   color: #ccc;
   font-size: 20px;
   margin-right: 12px;
   transition: 0.3s;
 }
-
 .social-icons a:hover {
   color: #fff;
 }
-
-
-
-
-
-
 .about-section {
   padding: 60px 10%;
   background: #f9f9f9;
 }
-
 .about-container {
   display: flex;
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
 }
-
 .about-image img {
   width: 400px;
   height: 500px;
@@ -214,41 +197,34 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
-
 .about-content {
   flex: 1;
 }
-
 .about-content h2 {
   font-size: 32px;
   margin-bottom: 10px;
   color: #222;
 }
-
 .about-content h3 {
   font-size: 22px;
   color: #e63946;
   margin-bottom: 20px;
 }
-
 .about-content p {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 15px;
   color: #444;
 }
-
 .about-highlights {
   list-style: none;
   padding: 0;
   margin: 20px 0;
 }
-
 .about-highlights li {
   margin-bottom: 10px;
   font-size: 16px;
 }
-
 .about-btn {
   display: inline-block;
   padding: 12px 20px;
@@ -259,7 +235,6 @@ body {
   font-weight: bold;
   transition: 0.3s;
 }
-
 .about-btn:hover {
   background: #b92534;
 }
