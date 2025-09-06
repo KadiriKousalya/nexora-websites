@@ -1,7 +1,9 @@
 :root {
   --primary: #2563eb;
   --muted: #6b7280;
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial;
 }
+
 body {
   font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial;
   color: #0f172a;
@@ -78,4 +80,189 @@ body {
   object-fit: cover;
   width: 250px;
   height: 250px;
+}
+.home-buttons {
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-bottom: 4px;
+  margin: 5px;
+  font-family: Poppins;
+}
+.home-buttons:hover {
+  background-color: rgb(63, 156, 190);
+  transition: 1s;
+  border-color: black;
+}
+.hidden {
+  display: none !important;
+}
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+.testimonial-card {
+  max-width: 600px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.testimonial-stars {
+  color: #f7c948;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+.testimonial-text {
+  font-size: 0.95rem;
+  color: #555;
+  font-style: italic;
+  line-height: 1.6;
+}
+#testimonials {
+  background-color: rgb(220, 240, 247);
+}
+#why-choose {
+  background-color: rgb(220, 240, 247);
+}
+
+.branch-box {
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.branch-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+.contact-section {
+  background-color: #f9f9f9;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.contact-form label {
+  font-weight: 500;
+}
+
+.contact-form .btn {
+  border-radius: 30px;
+  font-weight: 600;
+}
+.footer {
+  background: #0d1b2a;
+}
+
+.footer h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-link {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  color: #ccc;
+  font-size: 20px;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+
+
+
+
+
+.about-section {
+  padding: 60px 10%;
+  background: #f9f9f9;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.about-content h3 {
+  font-size: 22px;
+  color: #e63946;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.about-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about-highlights li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.about-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: #b92534;
+}
+#mission-vision {
+  background-color: rgb(220, 240, 247);
 }
