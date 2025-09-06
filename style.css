@@ -53,14 +53,14 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -3px; /* space below text */
+  bottom: -3px;
   width: 0;
   height: 2px;
-  background-color: var(--primary); /* same as your theme color */
+  background-color: var(--primary);
   transition: width 0.3s ease-in-out;
 }
 .nav-link:hover::after {
-  width: 100%;  /* expands underline on hover */
+  width: 100%;
 }
 #about h2 {
   font-size: 2rem;
