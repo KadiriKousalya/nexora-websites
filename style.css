@@ -241,3 +241,46 @@ body {
 #mission-vision {
   background-color: rgb(220, 240, 247);
 }
+.gallery-section {
+  padding: 60px 0;
+  background: #f8f9fa;
+}
+.gallery-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.gallery-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.gallery-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.gallery-img:hover img {
+  transform: scale(1.1);
+}
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  font-size: 18px;
+  font-weight: 500;
+}
+.gallery-img:hover .gallery-overlay {
+  opacity: 1;
+}
