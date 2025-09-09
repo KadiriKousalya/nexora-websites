@@ -241,6 +241,7 @@ body {
 #mission-vision {
   background-color: rgb(220, 240, 247);
 }
+
 .gallery-section {
   padding: 60px 0;
   background: #f8f9fa;
@@ -283,4 +284,25 @@ body {
 }
 .gallery-img:hover .gallery-overlay {
   opacity: 1;
+}
+.contributors {
+  background: #f9f9f9;
+}
+.contributor-card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contributor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contributor-logo {
+  max-width: 120px;
+  max-height: 80px;
+  object-fit: contain;
 }
