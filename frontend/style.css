@@ -1,4 +1,3 @@
-/* General Reset */
 html {
   scroll-behavior: smooth;
 }
@@ -16,10 +15,9 @@ body {
   line-height: 1.6;
 }
 
-/* ✅ Navbar */
 header {
   width: 100%;
-  background: #1e293b; /* dark navy */
+  background: #1e293b;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -38,7 +36,7 @@ header {
 .logo {
   font-size: 1.6rem;
   font-weight: bold;
-  color: #38bdf8; /* cyan */
+  color: #38bdf8;
 }
 
 .nav-links {
@@ -72,14 +70,12 @@ header {
   background: #0284c7;
 }
 
-/* ✅ Mobile Menu Toggle */
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
   cursor: pointer;
 }
 
-/* ✅ Responsive */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -103,11 +99,10 @@ header {
   }
 
   .cta-btn {
-    display: none; /* hide enquiry button on mobile menu */
+    display: none;
   }
 }
 
-/* ✅ Hero Section */
 .hero {
   background: url("https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80")
     no-repeat center center/cover;
@@ -127,7 +122,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(30, 41, 59, 0.7); /* dark overlay */
+  background: rgba(30, 41, 59, 0.7);
 }
 
 .hero-content {
@@ -164,7 +159,6 @@ header {
 .btn:hover {
   background: #0284c7;
 }
-/* ✅ About Section */
 .about {
   padding: 80px 20px;
   background: #f9f9f9;
@@ -212,7 +206,6 @@ header {
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
-/* Courses Section */
 #courses {
   padding: 80px 20px;
   background-color: #f8f9fc;
@@ -330,7 +323,6 @@ header {
 .btn.green:hover { background-color: #059669; }
 
 
-/* Founder Section Styling */
 #founder {
   background: linear-gradient(135deg, #e9f3ff, #ffffff);
 }
@@ -375,7 +367,7 @@ header {
   top: -10px;
 }
 .founder-img {
-  max-width: 260px;   /* Increased size */
+  max-width: 260px;
   border: 8px solid #f8f9fa;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
   transition: transform 0.3s ease;
@@ -384,7 +376,6 @@ header {
 .founder-img:hover {
   transform: scale(1.08);
 }
-/* Footer Styling */
 #footer {
   background: #111;
   color: #ddd;
@@ -415,7 +406,6 @@ header {
 .social-icon:hover {
   color: #0d6efd;
 }
-/* Footer Styling (existing code remains same) */
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -439,7 +429,6 @@ header {
   background: #ff7f50;
   transform: translateY(-4px);
 }
-/* Smooth hover for buttons */
 .btn, .cta-btn {
   transition: all 0.3s ease-in-out;
 }
@@ -448,7 +437,6 @@ header {
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-/* Navbar links */
 .nav-links li a {
   transition: color 0.3s ease;
 }
@@ -456,7 +444,6 @@ header {
   color: #0d6efd;
 }
 
-/* Footer social icons */
 .social-icon {
   display: inline-block;
   margin-right: 10px;
@@ -469,7 +456,6 @@ header {
   color: #0d6efd;
 }
 
-/* Back-to-top button */
 .back-to-top {
   transition: background 0.3s ease, transform 0.3s ease;
 }
@@ -477,7 +463,6 @@ header {
   background: #0d6efd;
   transform: translateY(-3px);
 }
-/* 🌈 Buttons with Gradient + Hover Effects */
 .btn, .cta-btn {
   background: linear-gradient(135deg, #0d6efd, #38bdf8);
   border: none;
@@ -492,7 +477,6 @@ header {
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
-/* 🖼 Smooth Image Hover Zoom */
 .about-img img, .founder-img {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -502,7 +486,6 @@ header {
   box-shadow: 0 12px 25px rgba(56, 189, 248, 0.3);
 }
 
-/* ✨ Floating Card Effect */
 .course-card, .founder-card {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -512,7 +495,6 @@ header {
   box-shadow: 0 15px 35px rgba(0,0,0,0.18);
 }
 
-/* 🎇 Animated Gradient Text */
 .section-title {
   background: linear-gradient(90deg, #0d6efd, #38bdf8);
   -webkit-background-clip: text;
@@ -526,7 +508,6 @@ header {
   100% { background-position: 100% 50%; }
 }
 
-/* 🌌 Footer Link Glow */
 .footer-link {
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
@@ -536,7 +517,6 @@ header {
   text-shadow: 0 0 8px rgba(56,189,248,0.7);
 }
 
-/* 🆙 Back to Top Hover */
 .back-to-top {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -545,7 +525,6 @@ header {
   transform: scale(1.2);
   box-shadow: 0 0 12px rgba(56,189,248,0.7);
 }
-/* 🟦 Sticky Navbar with Shadow on Scroll */
 header {
   position: sticky;
   top: 0;
@@ -554,13 +533,11 @@ header {
   transition: all 0.3s ease;
 }
 
-/* Shadow when scrolling */
 header.scrolled {
-  background: rgba(30, 41, 59, 0.95); /* slightly transparent */
+  background: rgba(30, 41, 59, 0.95);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(6px); /* glassy look */
+  backdrop-filter: blur(6px);
 }
-/* Hero Section */
 .about-hero {
   min-height: 70vh;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
@@ -573,7 +550,6 @@ header.scrolled {
   -webkit-text-fill-color: transparent;
 }
 
-/* Story Boxes */
 .story-box {
   background: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -583,7 +559,6 @@ header.scrolled {
   box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
-/* Founder */
 .founder-section blockquote {
   font-style: italic;
   color: #0d6efd;
@@ -591,7 +566,6 @@ header.scrolled {
   padding-left: 15px;
 }
 
-/* Values */
 .value-box {
   background: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -673,10 +647,10 @@ header.scrolled {
 }
 
 .founder-img {
-  width: 250px;  /* bigger image */
+  width: 250px;
   height: 250px;
   object-fit: cover;
-  border: 6px solid #0d6efd; /* blue ring */
+  border: 6px solid #0d6efd;
   transition: transform 0.4s ease;
 }
 
@@ -707,7 +681,7 @@ header.scrolled {
   display: flex;
   align-items: center;
 }
-/* Core Values */
+
 .core-values {
   background: #f9f9f9;
 }
@@ -724,7 +698,7 @@ header.scrolled {
   color: #0d6efd;
   margin-bottom: 15px;
 }
-/* Impact Numbers */
+
 .impact-section {
   background: linear-gradient(135deg, #0d6efd, #38bdf8);
   color: #fff;
@@ -748,7 +722,7 @@ header.scrolled {
   font-size: 1rem;
   opacity: 0.9;
 }
-/* Testimonials Section */
+
 #testimonials {
   background: #f8f9fa;
 }
@@ -779,7 +753,7 @@ header.scrolled {
   font-size: 1.2rem;
   color: #ffc107;
 }
-/* ✅ Courses Hero Section */
+
 #courses-hero {
   height: 85vh;
   background: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80") 
@@ -793,7 +767,7 @@ header.scrolled {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(30, 41, 59, 0.7); /* Dark overlay */
+  background: rgba(30, 41, 59, 0.7);
 }
 
 #courses-hero .hero-content {
@@ -834,7 +808,6 @@ header.scrolled {
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
-/* Courses Grid Section */
 #courses-grid {
   background: #f8fafc;
 }
@@ -913,7 +886,6 @@ header.scrolled {
   color: #0ea5e9;
   font-size: 1.1rem;
 }
-/* Highlight Most Popular Course */
 .course-card.popular {
   border: 2px solid #0ea5e9;
   position: relative;
@@ -932,7 +904,7 @@ header.scrolled {
   transform: rotate(45deg);
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
-/* Why Choose Section */
+
 .choose-card {
   background: #fff;
   transition: all 0.3s ease;
@@ -946,7 +918,6 @@ header.scrolled {
   color: #0d6efd;
 }
 
-/* Comparison Table */
 .comparison-table th {
   background: #1e293b !important;
   color: #fff;
@@ -965,7 +936,7 @@ header.scrolled {
   background: #f1fff7;
 }
 
-/* CTA Section */
+
 #cta-courses {
   background: linear-gradient(135deg, #0d6efd, #38bdf8);
 }
@@ -977,7 +948,7 @@ header.scrolled {
   font-weight: 600;
   padding: 12px 30px;
 }
-/* FAQ Section */
+
 #faq {
   background: #f8f9fa;
 }
@@ -1031,7 +1002,7 @@ header.scrolled {
 }
 
 .faq-item.active .faq-answer {
-  max-height: 200px; /* expands smoothly */
+  max-height: 200px;
 }
 #partners {
   background: #f8f9fa;
@@ -1062,7 +1033,6 @@ header.scrolled {
   filter: grayscale(0);
   transform: scale(1.05);
 }
-/* Hero Section for Gallery */
 .hero-gallery {
   position: relative;
   height: 80vh;
@@ -1090,7 +1060,7 @@ header.scrolled {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.55); /* faded effect */
+  background: rgba(0,0,0,0.55);
 }
 
 .hero-gallery .hero-content {
@@ -1113,7 +1083,6 @@ header.scrolled {
   font-size: 1.2rem;
   margin-top: 15px;
 }
-/* Gallery Section */
 #gallery {
   background: #f9f9f9;
 }
@@ -1160,7 +1129,6 @@ header.scrolled {
 .gallery-item:hover .overlay {
   transform: translateY(0);
 }
-/* Video Highlights */
 #video-highlights {
   background: #fff;
 }
@@ -1179,7 +1147,7 @@ header.scrolled {
   width: 100%;
   height: 500px;
 }
-/* Events Section */
+
 #events {
   background: #f9f9f9;
 }
@@ -1211,7 +1179,7 @@ header.scrolled {
   font-size: 1rem;
   color: #ddd;
 }
-/* Photo Wall */
+
 #photo-wall {
   background: #fff;
 }
@@ -1241,7 +1209,7 @@ header.scrolled {
   transform: scale(1.1);
 }
 
-/* Variations */
+
 .masonry-item.wide {
   grid-column: span 2;
 }
@@ -1249,7 +1217,7 @@ header.scrolled {
 .masonry-item.tall {
   grid-row: span 2;
 }
-/* Student Achievements */
+
 #achievements {
   background: #f8f9fa;
 }
@@ -1275,7 +1243,6 @@ header.scrolled {
   margin: 10px 0;
   color: #444;
 }
-/* Final CTA Section */
 .cta-section {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
               url('https://i.postimg.cc/1RW4Z9wg/about-us-footer-oic.jpg') center/cover no-repeat;
@@ -1294,11 +1261,11 @@ header.scrolled {
   margin: 0 auto 20px;
   opacity: 0.9;
 }
-/* Contact Hero Section */
+
 #contact-hero {
   min-height: 100vh;
   background: linear-gradient(to right, #f8f9fa, #ffffff);
-  padding-top: 120px; /* offset for navbar */
+  padding-top: 120px;
   display: flex;
   align-items: center;
   position: relative;
@@ -1336,13 +1303,12 @@ header.scrolled {
   animation: float 4s ease-in-out infinite;
 }
 
-/* Floating animation for illustration */
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-12px); }
   100% { transform: translateY(0px); }
 }
-/* Contact Info Section */
+
 #contact-info {
   background: #f8f9fa;
 }
@@ -1429,7 +1395,6 @@ header.scrolled {
   background: #0b5ed7;
   transform: translateY(-3px);
 }
-/* Newsletter Section */
 #newsletter {
   background: linear-gradient(135deg, #0d6efd, #2563eb);
   color: #fff;
