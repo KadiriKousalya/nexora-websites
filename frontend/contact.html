@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nexora Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!---------------------------------------- Start of Navbar section --------------------------------------->
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Nexora Academy</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="cta-btn">Enquiry</a>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </nav>
+</header>
+
+<!------------------------------------ End of Navbar section and Start of Banner section(img) -------------------------------->
+
+<section class="hero-contact" id="gallery-hero">
+  <div class="overlay"></div>
+  <div class="hero-content text-center">
+    <h1 data-aos="fade-up">Contact <span>Us</span></h1>
+    <p data-aos="fade-up" data-aos-delay="200">
+      Let’s Connect with <span class="text-primary">Nexora Academy</span>
+    </p>
+  </div>
+</section>
+
+<!------------------------------------ End of Banner section and Start of Contact Us section -------------------------------->
+
+<section id="contact-info" class="py-5">
+  <div class="container">
+    <div class="row text-center">
+      
+      <div class="col-md-3 mb-4" data-aos="fade-up">
+        <div class="info-card p-4 shadow-sm rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-geo-alt-fill text-primary fs-1"></i>
+          </div>
+          <h5 class="fw-bold">Our Location</h5>
+          <p class="text-muted">123 Nexora Street,<br>Hyderabad, India</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-card p-4 shadow-sm rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-telephone-fill text-primary fs-1"></i>
+          </div>
+          <h5 class="fw-bold">Call Us</h5>
+          <p class="text-muted">+91 98765 43210<br>Mon–Sat, 9AM–6PM</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="info-card p-4 shadow-sm rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-envelope-fill text-primary fs-1"></i>
+          </div>
+          <h5 class="fw-bold">Email Us</h5>
+          <p class="text-muted">info@nexoraacademy.com<br>support@nexora.com</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="info-card p-4 shadow-sm rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-clock-fill text-primary fs-1"></i>
+          </div>
+          <h5 class="fw-bold">Working Hours</h5>
+          <p class="text-muted">Mon–Sat: 9AM–6PM<br>Sunday: Closed</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!------------------------------------ End of Contact Us section and Start of Contact Form section -------------------------------->
+
+<section id="contact-form" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+<div class="col-lg-6 mb-4" data-aos="fade-right">
+  <h2 class="mb-4">Get In <span>Touch</span></h2>
+  <p class="mb-4 text-muted">
+    Have questions or need guidance? Fill out the form below and our team will reach out to you shortly.
+  </p>
+
+  <form id="enquiryForm">
+
+    <div class="mb-3">
+      <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+    </div>
+
+    <div class="mb-3">
+      <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+    </div>
+
+    <div class="mb-3">
+      <input type="tel" class="form-control" name="phone" placeholder="Your Phone Number" required>
+    </div>
+
+    <div class="mb-3">
+      <select class="form-select" name="course" required>
+        <option value="">Select Course of Interest</option>
+        <option value="Student Learning">Student Learning</option>
+        <option value="Employment Course">Employment Course</option>
+        <option value="Advanced & Professional Learning">Advanced & Professional Learning</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <textarea class="form-control" name="message" rows="4" placeholder="Your Message"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary px-4">Send Message</button>
+
+  </form>
+</div>
+
+
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.419708523945!2d78.48667191435322!3d17.385044088071537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99d4f7f2a6b5%3A0x4a2bdf4b44b3c8e4!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1670000000000" 
+          width="100%" 
+          height="400" 
+          style="border:0; border-radius: 15px;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!------------------------------------ End of Contact Form section and Start of Footer section -------------------------------->
+
+<section id="newsletter" class="py-5" data-aos="fade-up">
+  <div class="container text-center">
+    <h2 class="section-title mb-3">Stay Connected</h2>
+    <p class="section-subtitle mb-4">
+      Join <strong>10,000+ learners</strong> who are growing their careers with Nexora Academy.
+    </p>
+
+    <form class="newsletter-form mx-auto d-flex justify-content-center">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit" class="btn btn-subscribe">Subscribe</button>
+    </form>
+
+    <div class="social-icons mt-4">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------ End of Footer section and Start of Some other stuff -------------------------------->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>

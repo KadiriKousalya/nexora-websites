@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexora Academy - Learning Platform</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!---------------------------------------- Start of Navbar section --------------------------------------->
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Nexora Academy</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="cta-btn">Enquiry</a>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+<!------------------------------------ End of Navbar section and Start of Banner section(img) -------------------------------->
+
+  <section class="hero" id="home" data-aos="fade-up">
+    <div class="hero-content">
+      <h1>Welcome to Nexora Academy</h1>
+      <p>Empowering Students with Knowledge, Skills, and Career Growth</p>
+      <a href="#courses" class="btn btn-custom">Explore Courses</a>
+    </div>
+  </section>
+
+<!------------------------------------ End of Banner section and Start of About section -------------------------------->
+
+<section class="about" id="about" data-aos="fade-right">
+  <div class="container">
+    <div class="about-text">
+      <h2>About <span>Nexora Academy</span></h2>
+      <p>
+        At <strong>Nexora Academy</strong>, we believe in empowering students with 
+        practical skills and industry-relevant knowledge. With expert mentors, 
+        real-world projects, and strong placement support, we aim to transform 
+        learners into professionals.
+      </p>
+      <p>
+        Whether you’re a beginner or aiming for advanced learning, our programs 
+        are designed to give you the right guidance and career opportunities.
+      </p>
+      <a href="about.html" class="btn">More About us</a>
+    </div>
+    <div class="about-img">
+      <img src="https://i.postimg.cc/9FFQCtLM/about-companypic.jpg" alt="About Nexora Academy">
+    </div>
+  </div>
+</section>
+
+<!------------------------------------ End of About section and Start of Courses section -------------------------------->
+
+<section id="courses" data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">Choose Your Learning Path</h2>
+    <p class="section-subtitle">From basic learning to advanced professional development, we have the perfect program to match your career goals.</p>
+
+    <div class="courses-grid">
+      <div class="course-card">
+        <div class="icon blue">
+          📘
+        </div>
+        <h3>Student Learning</h3>
+        <p class="price">₹15,000 <span>/ 3-4 Months</span></p>
+        <p class="description">Perfect for beginners looking to learn fundamental skills and complete comprehensive coursework.</p>
+        <ul class="features">
+          <li>✔ Course completion certificate</li>
+          <li>✔ Basic skill development</li>
+          <li>✔ Self-paced learning</li>
+          <li>✔ Community support</li>
+        </ul>
+        <a href="courses.html" class="btn blue">Get Started →</a>
+      </div>
+
+      <div class="course-card popular">
+        <div class="icon purple">
+          💼
+        </div>
+        <div class="most-popular">Most Popular</div>
+        <h3>Employment Course</h3>
+        <p class="price">₹25,000 <span>/ 4-6 Months</span></p>
+        <p class="description">Designed for career changers seeking domain expertise with professional experience validation.</p>
+        <ul class="features">
+          <li>✔ Domain shift training</li>
+          <li>✔ Experience letter</li>
+          <li>✔ Interview preparation</li>
+          <li>✔ Portfolio development</li>
+        </ul>
+        <a href="courses.html" class="btn purple">Get Started →</a>
+      </div>
+
+      <div class="course-card">
+        <div class="icon green">
+          🎯
+        </div>
+        <h3>Advanced & Professional Learning</h3>
+        <p class="price">₹80,000 <span>/ 6-12 Months</span></p>
+        <p class="description">Comprehensive program with guaranteed placement support and advanced professional skills.</p>
+        <ul class="features">
+          <li>✔ 100% placement support</li>
+          <li>✔ Advanced skill training</li>
+          <li>✔ 1-on-1 mentoring</li>
+          <li>✔ Industry connections</li>
+        </ul>
+        <a href="courses.html" class="btn green">Get Started →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------ End of Courses section and Start of Founder section -------------------------------->
+
+<section id="founder" class="py-5" data-aos="zoom-in-up">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="founder-card d-flex flex-column flex-md-row align-items-center p-4 p-md-5 shadow-lg rounded-4">
+
+          <div class="text-center mb-4 mb-md-0 pe-md-5">
+            <img src="https://i.postimg.cc/cJtrcs9Y/founder-image.avif" alt="Founder of Nexora Academy"
+              class="founder-img img-fluid rounded-circle">
+          </div>
+
+          <div>
+            <p class="founder-quote mb-4">
+              “At Nexora Academy, our mission is to empower every student with the skills, confidence, 
+              and opportunities they need to thrive in the future workforce.”
+            </p>
+            <h4 class="fw-bold mb-0">Mr. M.S.Dhoni</h4>
+            <small class="text-muted">Founder & Director</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------ End of Founder section and Start of Footer section -------------------------------->
+
+<footer id="footer" class="bg-dark text-white pt-5 pb-3 position-relative" data-aos="fade-up">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Nexora Academy</h5>
+        <p class="small">
+          Empowering students with skills and confidence to thrive in the future workforce. 
+          Learn, grow, and succeed with us.
+        </p>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#courses" class="footer-link">Courses</a></li>
+          <li><a href="#gallery" class="footer-link">Gallery</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Contact Us</h5>
+        <p class="mb-1"><i class="bi bi-geo-alt-fill"></i> 123 Academy Street, City</p>
+        <p class="mb-1"><i class="bi bi-telephone-fill"></i> +91 98765 43210</p>
+        <p class="mb-3"><i class="bi bi-envelope-fill"></i> info@nexoraacademy.com</p>
+        
+        <div>
+          <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <hr class="border-light">
+    <div class="text-center small">
+      © 2025 Nexora Academy. All Rights Reserved.
+    </div>
+  </div>
+
+  <a href="#home" class="back-to-top">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+</footer>
+
+<!------------------------------------ End of Footer section and Start of some stuff -------------------------------->
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+</body>
+</html>
